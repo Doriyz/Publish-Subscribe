@@ -12,14 +12,14 @@ message PublishRequest {
     string content = 2;
     // bytes content = 2; // bytes can be stored in disk, while string cannot
 
-    message timestamp {
-        int32 year = 1;
-        int32 month = 2;
-        int32 day = 3;
-        int32 hour = 4;
-        int32 minute = 5;
-        int32 second = 6;
-    }
+    // message timestamp {
+    //     int32 year = 1;
+    //     int32 month = 2;
+    //     int32 day = 3;
+    //     int32 hour = 4;
+    //     int32 minute = 5;
+    //     int32 second = 6;
+    // }
 
     // timestamp ts = 3; // add timestamp to mark the time when the message is published
 }
